@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		669EC8841A7176AA003B7D37 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669EC8821A7176AA003B7D37 /* MyWindowController.m */; };
 		669EC8851A7176AA003B7D37 /* MyWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 669EC8831A7176AA003B7D37 /* MyWindowController.xib */; };
+		66A006A41FF84F7A000FEF47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66A006A31FF84F7A000FEF47 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		669EC8771A7173E5003B7D37 /* ExternalBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExternalBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		669EC87B1A7173E5003B7D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		669EC8811A7176AA003B7D37 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
 		669EC8821A7176AA003B7D37 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
 		669EC8831A7176AA003B7D37 /* MyWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWindowController.xib; sourceTree = "<group>"; };
+		66A006A31FF84F7A000FEF47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +37,7 @@
 				669EC8811A7176AA003B7D37 /* MyWindowController.h */,
 				669EC8821A7176AA003B7D37 /* MyWindowController.m */,
 				669EC8831A7176AA003B7D37 /* MyWindowController.xib */,
-				669EC8791A7173E5003B7D37 /* ExternalBundle */,
+				66A006A31FF84F7A000FEF47 /* Info.plist */,
 				669EC8781A7173E5003B7D37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +48,6 @@
 				669EC8771A7173E5003B7D37 /* ExternalBundle.bundle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		669EC8791A7173E5003B7D37 /* ExternalBundle */ = {
-			isa = PBXGroup;
-			children = (
-				669EC87A1A7173E5003B7D37 /* Supporting Files */,
-			);
-			path = ExternalBundle;
-			sourceTree = "<group>";
-		};
-		669EC87A1A7173E5003B7D37 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				669EC87B1A7173E5003B7D37 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +106,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A006A41FF84F7A000FEF47 /* Info.plist in Resources */,
 				669EC8851A7176AA003B7D37 /* MyWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +205,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ExternalBundle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -231,6 +218,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ExternalBundle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -256,6 +244,7 @@
 				669EC8801A7173E5003B7D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

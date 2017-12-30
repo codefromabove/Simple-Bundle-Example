@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  main.m
 //  ExternalBundleTest
 //
 //  Created by Philip Schneider on 1/22/15.
@@ -8,8 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-
-@end
-
+int main(int argc, const char * argv[])
+{
+    return NSApplicationMain(argc, argv);
+}

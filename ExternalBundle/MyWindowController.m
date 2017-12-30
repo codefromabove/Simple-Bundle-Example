@@ -14,7 +14,8 @@
 
 @implementation MyWindowController
 
-- (void)windowDidLoad {
+- (void)windowDidLoad
+{
     [super windowDidLoad];
 }
 

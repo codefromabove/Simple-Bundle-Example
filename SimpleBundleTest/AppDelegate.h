@@ -1,5 +1,5 @@
 //
-//  main.m
+//  AppDelegate.h
 //  SimpleBundleTest
 //
 //  Created by Philip Schneider on 1/22/15.
@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
-}
+@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@end

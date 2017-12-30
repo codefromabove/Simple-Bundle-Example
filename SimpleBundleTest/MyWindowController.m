@@ -14,7 +14,8 @@
 
 @implementation MyWindowController
 
-- (void)windowDidLoad {
+- (void)windowDidLoad
+{
     [super windowDidLoad];
 }
 
@@ -23,4 +24,5 @@
     [NSApp stopModalWithCode:NSModalResponseOK];
     [self.window close];
 }
+
 @end

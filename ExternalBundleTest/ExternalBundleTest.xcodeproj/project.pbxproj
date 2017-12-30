@@ -16,12 +16,12 @@
 /* Begin PBXFileReference section */
 		669EC84B1A716F2D003B7D37 /* ExternalBundleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExternalBundleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669EC84F1A716F2D003B7D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		669EC8501A716F2D003B7D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		669EC8501A716F2D003B7D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		669EC8511A716F2D003B7D37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		669EC8531A716F2D003B7D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		669EC8551A716F2D003B7D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		669EC8581A716F2D003B7D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		669EC8861A717AFB003B7D37 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
+		669EC8861A717AFB003B7D37 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = MyWindowController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,13 @@
 		669EC8421A716F2D003B7D37 = {
 			isa = PBXGroup;
 			children = (
-				669EC84D1A716F2D003B7D37 /* ExternalBundleTest */,
+				669EC8501A716F2D003B7D37 /* AppDelegate.h */,
+				669EC8511A716F2D003B7D37 /* AppDelegate.m */,
+				669EC8551A716F2D003B7D37 /* Images.xcassets */,
+				669EC84F1A716F2D003B7D37 /* Info.plist */,
+				669EC8531A716F2D003B7D37 /* main.m */,
+				669EC8571A716F2D003B7D37 /* MainMenu.xib */,
+				669EC8861A717AFB003B7D37 /* MyWindowController.h */,
 				669EC84C1A716F2D003B7D37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,28 +55,6 @@
 				669EC84B1A716F2D003B7D37 /* ExternalBundleTest.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		669EC84D1A716F2D003B7D37 /* ExternalBundleTest */ = {
-			isa = PBXGroup;
-			children = (
-				669EC8861A717AFB003B7D37 /* MyWindowController.h */,
-				669EC8501A716F2D003B7D37 /* AppDelegate.h */,
-				669EC8511A716F2D003B7D37 /* AppDelegate.m */,
-				669EC8551A716F2D003B7D37 /* Images.xcassets */,
-				669EC8571A716F2D003B7D37 /* MainMenu.xib */,
-				669EC84E1A716F2D003B7D37 /* Supporting Files */,
-			);
-			path = ExternalBundleTest;
-			sourceTree = "<group>";
-		};
-		669EC84E1A716F2D003B7D37 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				669EC84F1A716F2D003B7D37 /* Info.plist */,
-				669EC8531A716F2D003B7D37 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +179,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -231,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -242,7 +226,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ExternalBundleTest/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -253,7 +237,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = ExternalBundleTest/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -278,6 +262,7 @@
 				669EC86A1A716F2D003B7D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,24 +11,31 @@
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet     NSWindow           *window;
 @property (nonatomic, strong) MyWindowController *testWindowController;
 
 @end
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
     // Insert code here to initialize your application
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
     // Insert code here to tear down your application
 }
 
-- (IBAction)buttonAction:(id)sender {
-    if (![self testWindowController])
-    {
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
+{
+    return YES;
+}
+
+- (IBAction)buttonAction:(id)sender
+{
+    if (!self.testWindowController) {
         //
         // Gives the path to the .app. Can get the "separate bundle" path
         // relative to this
@@ -38,21 +45,21 @@
 
         Class someClass = [bundle principalClass];
         id    instance  = [[someClass alloc] initWithWindowNibName:@"MyWindowController"];
-        if (![instance isKindOfClass:[NSWindowController class]])
-        {
+        if (![instance isKindOfClass:[NSWindowController class]]) {
             NSLog(@"Bad class??");
             return;
         }
 
-        _testWindowController = (MyWindowController*)instance;
+        self.testWindowController = (MyWindowController *)instance;
     }
 
     // Show window
-    [_testWindowController showWindow:self];
-    [NSApp runModalForWindow:[_testWindowController window]];
+    [self.testWindowController showWindow:self];
+    [NSApp runModalForWindow:[self.testWindowController window]];
 
     // Get the checkbox state
-    NSInteger state  = [[_testWindowController checkBox] state];
+    NSInteger state  = [[self.testWindowController checkBox] state];
     NSLog(@"state : %ld", (long)state);
 }
+
 @end

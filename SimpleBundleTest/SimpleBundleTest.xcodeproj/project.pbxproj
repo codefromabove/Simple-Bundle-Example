@@ -11,32 +11,18 @@
 		669EC8231A7159F0003B7D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 669EC8221A7159F0003B7D37 /* main.m */; };
 		669EC8251A7159F0003B7D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669EC8241A7159F0003B7D37 /* Images.xcassets */; };
 		669EC8281A7159F0003B7D37 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 669EC8261A7159F0003B7D37 /* MainMenu.xib */; };
-		669EC8341A7159F0003B7D37 /* SimpleBundleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 669EC8331A7159F0003B7D37 /* SimpleBundleTestTests.m */; };
 		669EC8401A715CAF003B7D37 /* MyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669EC83E1A715CAF003B7D37 /* MyWindowController.m */; };
 		669EC8411A715CAF003B7D37 /* MyWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 669EC83F1A715CAF003B7D37 /* MyWindowController.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		669EC82E1A7159F0003B7D37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 669EC8121A7159F0003B7D37 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 669EC8191A7159F0003B7D37;
-			remoteInfo = SimpleBundleTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		669EC81A1A7159F0003B7D37 /* SimpleBundleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBundleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669EC81E1A7159F0003B7D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		669EC81F1A7159F0003B7D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		669EC81F1A7159F0003B7D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		669EC8201A7159F0003B7D37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		669EC8221A7159F0003B7D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		669EC8241A7159F0003B7D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		669EC8271A7159F0003B7D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		669EC82D1A7159F0003B7D37 /* SimpleBundleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBundleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		669EC8321A7159F0003B7D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		669EC8331A7159F0003B7D37 /* SimpleBundleTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleBundleTestTests.m; sourceTree = "<group>"; };
 		669EC83D1A715CAF003B7D37 /* MyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindowController.h; sourceTree = "<group>"; };
 		669EC83E1A715CAF003B7D37 /* MyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindowController.m; sourceTree = "<group>"; };
 		669EC83F1A715CAF003B7D37 /* MyWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWindowController.xib; sourceTree = "<group>"; };
@@ -50,24 +36,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		669EC82A1A7159F0003B7D37 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		669EC8111A7159F0003B7D37 = {
 			isa = PBXGroup;
 			children = (
+				669EC81F1A7159F0003B7D37 /* AppDelegate.h */,
+				669EC8201A7159F0003B7D37 /* AppDelegate.m */,
+				669EC8241A7159F0003B7D37 /* Images.xcassets */,
+				669EC81E1A7159F0003B7D37 /* Info.plist */,
+				669EC8221A7159F0003B7D37 /* main.m */,
+				669EC8261A7159F0003B7D37 /* MainMenu.xib */,
 				669EC83D1A715CAF003B7D37 /* MyWindowController.h */,
 				669EC83E1A715CAF003B7D37 /* MyWindowController.m */,
 				669EC83F1A715CAF003B7D37 /* MyWindowController.xib */,
-				669EC81C1A7159F0003B7D37 /* SimpleBundleTest */,
-				669EC8301A7159F0003B7D37 /* SimpleBundleTestTests */,
 				669EC81B1A7159F0003B7D37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,47 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				669EC81A1A7159F0003B7D37 /* SimpleBundleTest.app */,
-				669EC82D1A7159F0003B7D37 /* SimpleBundleTestTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		669EC81C1A7159F0003B7D37 /* SimpleBundleTest */ = {
-			isa = PBXGroup;
-			children = (
-				669EC81F1A7159F0003B7D37 /* AppDelegate.h */,
-				669EC8201A7159F0003B7D37 /* AppDelegate.m */,
-				669EC8241A7159F0003B7D37 /* Images.xcassets */,
-				669EC8261A7159F0003B7D37 /* MainMenu.xib */,
-				669EC81D1A7159F0003B7D37 /* Supporting Files */,
-			);
-			path = SimpleBundleTest;
-			sourceTree = "<group>";
-		};
-		669EC81D1A7159F0003B7D37 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				669EC81E1A7159F0003B7D37 /* Info.plist */,
-				669EC8221A7159F0003B7D37 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		669EC8301A7159F0003B7D37 /* SimpleBundleTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				669EC8331A7159F0003B7D37 /* SimpleBundleTestTests.m */,
-				669EC8311A7159F0003B7D37 /* Supporting Files */,
-			);
-			path = SimpleBundleTestTests;
-			sourceTree = "<group>";
-		};
-		669EC8311A7159F0003B7D37 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				669EC8321A7159F0003B7D37 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,39 +83,17 @@
 			productReference = 669EC81A1A7159F0003B7D37 /* SimpleBundleTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		669EC82C1A7159F0003B7D37 /* SimpleBundleTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 669EC83A1A7159F0003B7D37 /* Build configuration list for PBXNativeTarget "SimpleBundleTestTests" */;
-			buildPhases = (
-				669EC8291A7159F0003B7D37 /* Sources */,
-				669EC82A1A7159F0003B7D37 /* Frameworks */,
-				669EC82B1A7159F0003B7D37 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				669EC82F1A7159F0003B7D37 /* PBXTargetDependency */,
-			);
-			name = SimpleBundleTestTests;
-			productName = SimpleBundleTestTests;
-			productReference = 669EC82D1A7159F0003B7D37 /* SimpleBundleTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		669EC8121A7159F0003B7D37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Code From Above, LLC";
 				TargetAttributes = {
 					669EC8191A7159F0003B7D37 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					669EC82C1A7159F0003B7D37 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 669EC8191A7159F0003B7D37;
 					};
 				};
 			};
@@ -189,7 +111,6 @@
 			projectRoot = "";
 			targets = (
 				669EC8191A7159F0003B7D37 /* SimpleBundleTest */,
-				669EC82C1A7159F0003B7D37 /* SimpleBundleTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +123,6 @@
 				669EC8411A715CAF003B7D37 /* MyWindowController.xib in Resources */,
 				669EC8251A7159F0003B7D37 /* Images.xcassets in Resources */,
 				669EC8281A7159F0003B7D37 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		669EC82B1A7159F0003B7D37 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +139,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		669EC8291A7159F0003B7D37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				669EC8341A7159F0003B7D37 /* SimpleBundleTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		669EC82F1A7159F0003B7D37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 669EC8191A7159F0003B7D37 /* SimpleBundleTest */;
-			targetProxy = 669EC82E1A7159F0003B7D37 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		669EC8261A7159F0003B7D37 /* MainMenu.xib */ = {
@@ -263,20 +161,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -289,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -304,13 +212,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -319,13 +235,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -336,8 +253,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SimpleBundleTest/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codefromabove.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -347,45 +265,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SimpleBundleTest/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codefromabove.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		669EC83B1A7159F0003B7D37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SimpleBundleTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleBundleTest.app/Contents/MacOS/SimpleBundleTest";
-			};
-			name = Debug;
-		};
-		669EC83C1A7159F0003B7D37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SimpleBundleTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleBundleTest.app/Contents/MacOS/SimpleBundleTest";
 			};
 			name = Release;
 		};
@@ -408,14 +291,7 @@
 				669EC8391A7159F0003B7D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		669EC83A1A7159F0003B7D37 /* Build configuration list for PBXNativeTarget "SimpleBundleTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				669EC83B1A7159F0003B7D37 /* Debug */,
-				669EC83C1A7159F0003B7D37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
