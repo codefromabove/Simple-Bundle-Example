@@ -3,7 +3,7 @@
 //  SimpleBundleTest
 //
 //  Created by Philip Schneider on 1/22/15.
-//  Copyright (c) 2015 Code From Above, LLC. All rights reserved.
+//  Copyright (c) 2015-2019 Code From Above, LLC. All rights reserved.
 //
 
 #import "MyWindowController.h"
